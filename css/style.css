@@ -1,0 +1,235 @@
+/* =========== Common CSS ============ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+/* =========== Reuseable Components ============ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn-primary {
+    background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.section-title {
+    color: rgb(18, 18, 18);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.section-desc {
+    color: rgb(112, 112, 112);
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    line-height: 1.5rem;
+    margin-bottom: 60px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* =========== Header Part ============ */
+header {
+    background: url('../images/flood1.jpg') no-repeat center / cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+header p {
+    margin-bottom: 30px !important;
+    width: 50%;
+    margin: auto;
+}
+
+/* =========== Donate Section ============ */
+
+.donate-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#donate h3 {
+    color: rgb(112, 112, 112);
+    font-size: 1.5rem;
+    padding: 40px 25px;
+}
+
+.donate-wrapper h3.active {
+    border: 2px solid rgb(255, 89, 89);
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.15)
+}
+
+/* =========== Card Section ============ */
+
+#card {
+    padding-top: 0;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 25px
+}
+
+.single-card {
+    border-radius: 8px;
+    background: rgba(79, 157, 166, 0.1);
+    padding: 50px 25px;
+}
+
+.single-card:nth-child(2) {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.single-card:nth-child(3) {
+    background: #fff4d6
+}
+
+.single-card img {
+    margin-bottom: 20px;
+}
+
+.single-card h3 {
+    margin-bottom: 20px;
+}
+
+.single-card p {
+    color: rgb(112, 112, 112);
+    line-height: 1.5rem;
+}
+
+/* =========== Contribute Section ============ */
+
+#contribute {
+    padding-top: 0;
+}
+
+.contribute-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.contribute-wrapper>div {
+    flex: 1
+}
+
+.contribute-wrapper img {
+    width: 100%;
+    border-radius: 10px;
+    height: 380px;
+}
+
+.contribute-content h2 {
+    margin-bottom: 20px;
+    color: rgb(18, 18, 18);
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.contribute-content p {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.contribute-img {
+    padding: 0 5%;
+}
+
+.contribute-img2 {
+    padding-left: 0;
+}
+
+/* =========== Update Section ============ */
+
+#update {
+    padding-top: 0;
+}
+
+.update-wrapper {
+    background: #fcebbe;
+    max-width: 730px;
+    height: 170px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#update input[type="email"] {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: #ddd;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 280px;
+}
+
+#update input[type="submit"] {
+    background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    margin-left: -3px;
+}
+
+/* =========== Footer Part ============ */
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background: rgb(11, 13, 23);
+    color: #ffffff80
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-family: cursive;
+    color: rgb(255, 89, 89);
+    font-size: 1.5rem;
+}
